@@ -8,3 +8,5 @@ do
     ((COUNT++))
 done < "$1"
 exit 0
+
+# command for writing a file:  ./reader.sh names.txt >> output.txt
